@@ -13,7 +13,6 @@
       "url": "https://github.com/jaecktec/"
   },
   "version": "0.0.1-SNAPSHOT",
-  "include": "OneWire",
   "frameworks": "arduino",
   "platforms": "espressif",
   "dependencies": [
