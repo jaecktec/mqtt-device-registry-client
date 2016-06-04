@@ -1,0 +1,31 @@
+{
+  "name": "MqttDeviceRegistryClient",
+  "keywords": "mqtt, registry",
+  "description": "Client for the MqttDeviceRegistry (currently in early Alpha)",
+  "repository":
+  {
+      "type": "git",
+      "url": "https://github.com/jaecktec/mqtt-device-registry-client.git"
+  },
+  "authors":
+  {
+      "name": "Constantin Jaeck",
+      "url": "https://github.com/jaecktec/"
+  },
+  "version": "0.0.1-SNAPSHOT",
+  "include": "OneWire",
+  "frameworks": "arduino",
+  "platforms": "espressif",
+  "dependencies": [
+  {
+    "name": "Json",
+    "authors": "Benoit Blanchon",
+    "frameworks": "arduino"
+  },
+  {
+    "name": "PubSubClient",
+    "authors": "Nick O'Leary",
+    "frameworks": "arduino"
+    }
+  ]
+}
