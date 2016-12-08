@@ -72,8 +72,6 @@ void setup() {
   }else{
     DeviceRegistry.addDevice(&temperature);
     DeviceRegistry.addDevice(&humidity);
-    DeviceRegistry.addDevice(&systemInfo);
-    DeviceRegistry.addDevice(&serialOut);
     DeviceRegistry.start();
   }
 
