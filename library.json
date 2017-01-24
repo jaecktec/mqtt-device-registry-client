@@ -9,12 +9,13 @@
   },
   "authors":
   {
-      "name": "Constantin Jaeck",
+      "name": "Jaekctec",
       "url": "https://github.com/jaecktec/"
   },
   "version": "0.0.1-SNAPSHOT",
   "frameworks": "arduino",
   "platforms": "espressif8266",
+  "examples": "examples/*.ino",
   "dependencies": [
   {
     "name": "Json",
