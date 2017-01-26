@@ -12,7 +12,7 @@
       "name": "Jaekctec",
       "url": "https://github.com/jaecktec/"
   },
-  "version": "0.0.1-SNAPSHOT",
+  "version": "0.0.1",
   "frameworks": "arduino",
   "platforms": "espressif8266",
   "examples": "examples/*.ino",
