@@ -17,15 +17,15 @@
   "platforms": "espressif8266",
   "examples": "examples/*.cpp",
   "dependencies": [
-  {
-    "name": "Json",
-    "authors": "Benoit Blanchon",
-    "frameworks": "arduino"
-  },
-  {
-    "name": "PubSubClient",
-    "authors": "Nick O'Leary",
-    "frameworks": "arduino"
-    }
+	  {
+	    "name": "ArduinoJson",
+	    "frameworks": "arduino",
+	    "version": "5.8.2"
+	  },
+	  {
+	    "name": "PubSubClient",
+	    "frameworks": "arduino",
+	    "version": "2.6"
+	    }
   ]
 }
