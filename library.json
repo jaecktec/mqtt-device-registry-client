@@ -1,5 +1,5 @@
 {
-  "name": "MqttDeviceRegistryClient",
+  "name": "DeviceRegistry",
   "keywords": "mqtt, registry",
   "description": "Client for the MqttDeviceRegistry (currently in early Alpha)",
   "repository":
