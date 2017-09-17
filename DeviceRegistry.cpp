@@ -9,7 +9,7 @@ void DeviceRegistry::connect(){
   char* lastWillMsg = this->getMessageBuffer();
   char mqttClientSecret[60];
 
-  sprintf(mqttClientSecret, "DeviceRegistry-Client-%d", this->m_unit);
+  sprintf(mqttClientSecret, "DeviceRegistry-Client-%d", this->m_uuid);
   sprintf(lastWillTopic, TOPIC_UNREGISTER, m_uuid);
   sprintf(lastWillMsg, "{\"id\": \"%s\"}", m_uuid);
   m_pubSubClient.connect(mqttClientSecret, lastWillTopic,0, false, lastWillMsg);
